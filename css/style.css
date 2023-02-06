@@ -13,6 +13,12 @@
   align-items: center;
 }
 
+ul{
+  gap: 5px;
+  list-style-type: none;
+  display: flex;
+}
+
 .container{
   width: 60%;
   margin: 0 auto;
@@ -26,15 +32,6 @@
   height: 30px;
   padding: 0 5px;
   border: 1px dashed black;
-}
-
-.header-list{
-  list-style-type: none;
-  display: flex;
-}
-
-.header-list > li{
-  margin: 0 5px;
 }
 
 .header-bottom{
