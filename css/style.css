@@ -5,3 +5,49 @@
   box-sizing: border-box;
 }
 
+.header-top{
+  background-color: #add8e6;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.nav{
+  background-color: orange;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+  padding: 0 5px;
+  border: 1px dashed black;
+}
+
+.header-list{
+  list-style-type: none;
+  display: flex;
+}
+
+.header-list > li{
+  margin: 0 5px;
+}
+
+.header-bottom{
+  height: 250px;
+  background-color: #02148b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home{
+  background-color: #ee82ee;
+  height: 200px;
+  width: 60%;
+  border: 1px dashed black;
+}
