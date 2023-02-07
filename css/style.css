@@ -35,42 +35,42 @@ ul{
 }
 
 .header-bottom{
-  height: 250px;
+  height: 200px;
   background-color: #02148b;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.home{
+.jumbotron{
   background-color: #ee82ee;
-  height: 200px;
+  height: 150px;
   width: 50%;
   border: 1px dashed black;
 }
 
-.section{
+section{
   width: 100%;
-  height: 250px;
+  padding: 20px 0;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .union{
-  height: 200px;
+  height: 150px;
   border: 1px dashed black;
   display: flex;
 }
 
-.left{
+.large-col{
   background-color: #1e90ff;
   height: 100%;
   width: 60%;
   border: 1px dashed black;
 }
 
-.right{
+.small-col{
   background-color: #fec0cb;
   height: 100%;
   width: 40%;
@@ -82,14 +82,14 @@ ul{
 }
 
 .union-grey{
-  height: 200px;
+  height: 150px;
   border: 1px dashed black;
   display: flex;
   flex-direction: row-reverse;
 } 
 
 .big-section{
-  height: 350px;
+  height: 250px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -97,7 +97,7 @@ ul{
 }
 
 .green{
-  height: 300px;
+  height: 200px;
   background-color: green;
   border: 1px dashed black;
 }
@@ -132,7 +132,7 @@ ul{
 
 footer{
   background-color: #23272a;
-  padding-top: 10px;
+  padding: 10px;
 }
 
 .footer{
